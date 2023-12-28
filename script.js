@@ -1,3 +1,5 @@
-document.getElementById("test").addEventListener("click", function() {
-  alert("i dont even know how to code in js u actually expected something to happen lmao, anyways thanks for trying out my 'website'");
+document.getElementById("search").addEventListener("click", function(){
+    alert("Google it  dont boogle it you idiot");
+    window.open("https://www.google.com");
+    
 });
