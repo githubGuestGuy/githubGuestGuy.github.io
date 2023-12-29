@@ -1,5 +1,16 @@
-document.getElementById("search").addEventListener("click", function(){
-    alert("Google it  dont boogle it you idiot");
-    window.open("https://www.google.com");
+document.getElementById("button").addEventListener("click", function(){
+    
+    document.body.style.backgroundColor="black";
+    
+    
+    
+});
+
+
+document.getElementById("white").addEventListener("click", function(){
+    
+    document.body.style.backgroundColor="white";
+    
+    
     
 });
