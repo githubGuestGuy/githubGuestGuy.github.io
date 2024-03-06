@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download Executable</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download Zip File</title>
 </head>
 <body>
-    <h1>Download Your File</h1>
-    <p>Click the link below to download the executable file:</p>
-    <a href="main.exe" download>nigger</a>
+
+<button onclick="downloadZip()">Download Zip File</button>
+
+<script>
+function downloadZip() {
+  // Creating a temporary link element
+  var link = document.createElement("a");
+  link.href = "path/to/your/test.zip"; // Replace "path/to/your/test.zip" with the actual path to your zip file
+  link.download = "test.zip"; // Specify the filename for the downloaded file
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link); // Cleanup after download
+}
+</script>
+
 </body>
 </html>
